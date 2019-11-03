@@ -2,22 +2,22 @@
 
 This project iterates the Data Science Lifecycle over the well known King County House Prices dataset. Here you find a description of the chapters and my working procedure in my Jupyter Notebook File. Our task is described in the instructions.
 
-**Meaning of the features** 
+**1.Meaning of the features** 
 
 Some of the features were not clear in meaning. You will find the research for bathrooms, grade and condition in that part
 
-**Analyze the dataset** 
+**2. Analyze the dataset** 
 
-**Cleaning the dataset** 
+**3. Cleaning the dataset** 
 
-**Missing values** 
+**4. Missing values** 
 
 Mistyped number of bedrooms, "?" in sqft_basement, missing values in waterfront, view and 
 
-**Duplicates?** 
+**5. Duplicates?** 
 No
 
-**EDA** 
+**6. EDA** 
 
 * Analyze the target "price" in depth
 
@@ -31,25 +31,25 @@ No
 
 * Price per month 2014-15
 
-**Features vs. Price / Correlation** 
+**7. Features vs. Price / Correlation** 
 
 Correlation matrix
 
-**Outstanding Features** 
+**8. Outstanding Features** 
 
 * Numeric: Sqft_living, sqft_above, sqft_living15, grade
 
 * Drop sqft_above (multicolinearity)
 
-**Categorical Features** 
+**9. Categorical Features** 
 
 Categorical: grade, waterfront, view, zipcode, latitude
 
-**Multicolinearity/Dummy variables** 
+**10. Multicolinearity/Dummy variables** 
 
-**Normalisation of Features** 
+**11. Normalisation of Features** 
 
-**Prediction**
+**12. Prediction**
 
 * Split target and features
 
@@ -57,7 +57,7 @@ Categorical: grade, waterfront, view, zipcode, latitude
 
 * Train the model and then test it
 
-**Multilinear Regression** 
+**13. Multilinear Regression** 
 
 * Create dummy variables, drop first value automatically
 
